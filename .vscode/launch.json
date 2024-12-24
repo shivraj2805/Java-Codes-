@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Assignment8",
+      "request": "launch",
+      "mainClass": "Assignment8",
+      "projectName": "Java 2024_fcde1e5e"
+    },
+    {
+      "type": "java",
+      "name": "AL",
+      "request": "launch",
+      "mainClass": "AL",
+      "projectName": "Java 2024_fcde1e5e"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/shivr/OneDrive/Desktop/Java 2024",
+      "program": "c:/Users/shivr/OneDrive/Desktop/Java 2024/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
